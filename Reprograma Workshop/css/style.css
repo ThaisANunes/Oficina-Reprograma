@@ -48,7 +48,7 @@ a{
 
 .principal h2{
    text-align: left; 
-   margin: 50px 100px 50px 50px; 
+   margin: 60px 100px 100px 50px; 
    color: violet;
    font-size: 3rem;
 }
@@ -64,8 +64,8 @@ a{
 }
 
 .sobre, .habilidades{
-    width: 380px;
-    margin-right: 380px;
+    width: 300px;
+    margin-right: 300px;
     color: #7E459B;
     font-size: 15pt;
 }
@@ -91,7 +91,7 @@ a{
 	align-items: center;
 	align-content: flex-start;
     height: 50vh;
-    margin: 150px;
+    margin: 220px;
     
 }
 
