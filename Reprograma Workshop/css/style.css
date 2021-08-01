@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+.banner{
+    background: url(../img/banner-bg.png) center no-repeat;
+    background-size: cover;
+    height: 90vh;
+    text-align: center;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+    color: #7E459B;
+}
+
+.banner p{
+    margin: 20px;
+}
+
+h1{
+    margin: 10px;
+}
+
+.btn-branco{
+    color: #7E459B;
+    background-color: white;
+    text-transform: uppercase;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.principal{
+    height: 50vh;
+}
+
+.principal h2{
+   text-align: left; 
+   margin: 50px 100px 50px 50px; 
+   color: violet;
+   font-size: 3rem;
+}
+
+.sobre-habilidades{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    height: 50vh;
+}
+
+.sobre, .habilidades{
+    width: 380px;
+    margin-right: 380px;
+    color: #7E459B;
+    font-size: 15pt;
+}
+
+.sobre p{
+    margin-bottom: 30px;
+}
+
+.btn-lilas{
+    color: #7E459B;
+    border: 1px solid #7E459B;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+
+
+.rodape{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: flex-start;
+    height: 50vh;
+    margin: 150px;
+    
+}
+
+.rodape a{
+    background-color: #7E459B;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    width: 180px;
+    height: 200px;
+    color: white;
+}
+
+.rodape img{
+    padding: 10px;
+}
+
+.rodape h3{
+    padding: 10px;
+}
